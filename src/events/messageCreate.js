@@ -1,7 +1,7 @@
 const { Collection } = require("discord.js");
 const cooldown = new Collection();
 const ms = require("ms");
-const config = require("../config.json");
+const config = require("../config");
 
 module.exports = {
     name: "messageCreate",
