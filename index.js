@@ -16,7 +16,6 @@ const { readdirSync } = require("fs");
 const moment = require("moment");
 const { REST } = require("@discordjs/rest");
 const { Routes } = require("discord-api-types/v10");
-require("dotenv");
 
 client.commands = new Collection()
 client.slashCommands = new Collection()
