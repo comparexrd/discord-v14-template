@@ -11,7 +11,7 @@ const client = new Client({
         Partials.User
     ]
 });
-const config = require("./src/config.json");
+const config = require("./src/config");
 const { readdirSync } = require("fs");
 const moment = require("moment");
 const { REST } = require("@discordjs/rest");
